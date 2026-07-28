@@ -1,0 +1,306 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: hsl(254deg 89.33% 94.01%);
+}
+
+.page {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 1000px;
+    height: 800px;
+    display: grid;
+    grid-template-columns: repeat(4, 235px);
+    grid-template-rows: repeat(3, 250px);
+    gap: 20px 20px;
+}
+
+div {
+    padding: 20px;
+    border-radius: 7px;
+}
+
+h3 {
+    font-size: 27px;
+}
+
+.image {
+    padding: 0px;
+    overflow: hidden;
+}
+
+.one {
+    grid-column: 2 / 4;
+    grid-row: 1 / 2;
+    background-color: hsl(256, 67%, 59%);
+}
+
+.one h1 {
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 400px;
+    font-size: 45px;
+}
+
+.one span {
+    color: hsl(39, 100%, 71%);
+}
+
+.one img {
+    width: 180px;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 130px;
+}
+
+.one p {
+    margin-top: 15px;
+    color: hsl(254, 88%, 90%);
+    text-align: center;
+}
+
+.two {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.two h3 {
+    margin-top: 20px;
+}
+
+.two .image {
+    width: 212px;
+}
+
+.two img {
+    width: 290px;
+    height: 60px;
+}
+
+.three {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+    background-color: hsl(39, 100%, 71%);
+}
+
+.three .image {
+    height: 105px;
+    margin-top: 2px;
+}
+
+.three img {
+    width: 190px;
+    height: 150px;
+    margin-top: 15px;
+}
+
+.four {
+    grid-column: 4 / 5;
+    grid-row: 1 / 3;
+    background-color: hsl(254, 88%, 90%);
+}
+
+.four img {
+    width: 320px;
+    height: 320px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.four .image {
+    width: 215px;
+}
+
+.four p {
+    margin-top: 15px;
+}
+
+.five {
+    grid-column: 3 / 5;
+    grid-row: 3 / 4;
+    background-color: hsl(256, 67%, 59%);
+    display: flex;
+}
+
+.five img {
+    width: 410px;
+    height: 205px;
+}
+
+.five h3 {
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+}
+
+.six {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.six h1 {
+    font-size: 55px;
+}
+
+.six p {
+    margin-top: 15px;
+}
+
+.six img {
+    margin-top: 30px;
+    width: 170px;
+    height: 60px;
+}
+
+.seven {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    background-color: hsl(31, 66%, 93%);
+    height: 310px;
+}
+
+.seven h1 {
+    margin-top: 10px;
+}
+
+.seven img {
+    margin-top: 20px;
+    width: 190px;
+    height: 70px;
+}
+
+.seven span {
+    color: hsl(256, 67%, 59%);
+}
+
+.eight {
+    grid-column: 1 / 2;
+    grid-row: 2 / 4;
+    background-color: hsl(39, 100%, 71%);
+    margin-top: 105px;
+}
+
+.eight h1 {
+    font-size: 35px;
+}
+
+.eight img {
+    margin-top: 20px;
+    width: 200px;
+    height: 235px;
+}
+
+@media (max-width: 375px) {
+    .page {
+        width: 300px;
+        height: 2455px;
+        display: block;
+    }
+    div {
+        width: 290px;
+    }
+    .one {
+        width: 290px;
+    }
+    .one h1 {
+        width: 285px;
+        margin-left: 0px;
+    }
+    .one img {
+        margin-left: 55px;
+    }
+    .two {
+        margin-top: 20px;
+    }
+    .two h3 {
+        font-size: 25px;
+    }
+    .two .image {
+        width: 290px;
+    }
+    .three {
+        margin-top: 20px;
+        height: 189px;
+    }
+    .three .image {
+        height: 145px;
+    }
+    .three img {
+        width: 230px;
+    }
+    .four {
+        margin-top: 20px;
+    }
+    .four img {
+        width: 300px;
+        margin-left: 0;
+    }
+    .four .image {
+        width: 300px;
+    }
+    .four p {
+        text-align: center;
+        font-size: 21px;
+    }
+    .five {
+        margin-top: 20px;
+        display: block;
+    }
+    .five img {
+        width: 260px;
+        height: 155px;
+        margin-left: 15px;
+    }
+    .five h3 {
+        text-align: center;
+        font-size: 35px;
+    }
+    .six {
+        margin-top: 20px;
+    }
+    .six p {
+        font-size: 20px;
+    }
+    .seven {
+        margin-top: 20px;
+        height: 175px;
+    }
+    
+    .seven h1 {
+        margin-top: 10px;
+    }
+    
+    .seven img {
+        margin-top: 20px;
+        width: 190px;
+        height: 70px;
+    }
+    
+    .seven span {
+        color: hsl(256, 67%, 59%);
+    }
+    
+    .eight {
+        margin-top: 20px;
+    }
+    
+    .eight h1 {
+        font-size: 35px;
+    }
+    
+    .eight img {
+        margin-top: 20px;
+        width: 200px;
+        height: 235px;
+    }
+    
+}

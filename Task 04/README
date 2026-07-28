@@ -1,0 +1,14 @@
+Decodelabs 4th task
+4'th task in Decodelabs intern trainning using HTML and CSS and JavaScript To make Registration Form Validation project
+- Validate: 
+- Full Name (minimum 3 characters) 
+- Email (valid email format) 
+- Phone Number 
+- Password (minimum 8 characters, one uppercase letter, one number) 
+- Confirm Password 
+- Show error messages below each input. 
+- Show success message when the form is valid. 
+- Prevent form submission if validation fails. 
+- Green border for valid inputs. 
+- Red border for invalid inputs. 
+- Show/Hide Password button.
